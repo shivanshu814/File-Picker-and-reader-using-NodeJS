@@ -10,7 +10,7 @@ var storage = multer.diskStorage({
 		callback(null, './uploads/');
 	},
 	filename: function (request, file, callback) {
-		callback(null, 'uploaded');
+		callback(null, 'uploaded.docx');
 	},
 });
 
