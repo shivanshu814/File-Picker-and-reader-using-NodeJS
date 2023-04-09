@@ -1,0 +1,28 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Reading Word Files</title>
+	</head>
+	<body style="padding: 50px">
+		<form
+			id="form"
+			action="/fileupload"
+			method="post"
+			enctype="multipart/form-data"
+		>
+			<input
+				type="file"
+				id="docpicker"
+				accept=".docx"
+				required
+				name="inputdoc"
+			/>
+			<input type="submit" />
+		</form>
+	</body>
+</html>
